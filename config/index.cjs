@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'otCwU57e9Kefns7o3ec2iC6qyK9s',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '0AmeTOV2OtQKzySQowo43AtkHXbLUZWyNYjyjuJLjRM',
+      useTemplateId: 'tCDBPbOoYEIbF7cH9hGHiTfyuaqtzt3mCgfBRHuMa4c',
       // 所在省份
       province: '湖南',
       // 所在城市
@@ -87,10 +87,7 @@ const USER_CONFIG = {
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '憨憨', year: '2002', date: '08-14',
-        },
-        {
-          type: '节日', name: '在一起的日子', year: '2020', date: '07-31',
-        }
+        } 
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -265,9 +262,6 @@ const USER_CONFIG = {
     {
       type: '生日', name: '憨憨', year: '2002', date: '08-14', isShowAge: true,
     },
-    {
-      type: '节日', name: '在一起的日子', year: '2020', date: '07-31',
-    }
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -277,7 +271,7 @@ const USER_CONFIG = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 3,
+  FESTIVALS_LIMIT: 2,
 
   /** 日期相关 */
 
@@ -287,7 +281,7 @@ const USER_CONFIG = {
    * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    { keyword: 'love_day', date: '2020-07-31' }
+
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -309,6 +303,7 @@ const USER_CONFIG = {
         '申请成为你爱里的永久居民。',
         '你很傻，你很笨，可我还是很羡慕你，因为你有我',
         '遇见你，就好像捡到了100斤的运气'
+        '爱是形容词，形容词是我们'
       ],
     }
     // 你可以不断按格式往下增加
