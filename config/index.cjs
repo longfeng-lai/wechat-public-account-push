@@ -92,7 +92,7 @@ const USER_CONFIG = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2020-07-31' },
+        { keyword: 'love_day', date: '2020-07-31' }
       ],
       // 课程表相关配置
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
@@ -271,7 +271,7 @@ const USER_CONFIG = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 2,
+  FESTIVALS_LIMIT: 0,
 
   /** 日期相关 */
 
