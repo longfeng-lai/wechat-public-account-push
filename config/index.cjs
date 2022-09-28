@@ -261,7 +261,7 @@ const USER_CONFIG = {
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     {
       type: '生日', name: '憨憨', year: '2002', date: '08-14', isShowAge: true,
-    },
+    }
     // 你可以不断按格式往下增加
     // ...
   ],
