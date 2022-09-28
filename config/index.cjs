@@ -281,7 +281,7 @@ const USER_CONFIG = {
    * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-
+    { keyword: 'love_day', date: '2020-07-31' }
     // 你可以不断按格式往下增加
     // ...
   ],
