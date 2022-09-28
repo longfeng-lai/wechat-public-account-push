@@ -258,7 +258,7 @@ const USER_CONFIG = {
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
     {
-      type: '生日', name: '老婆', year: '2003', date: '03-25', isShowAge: true,
+      type: '生日', name: '宝贝', year: '2003', date: '03-25', isShowAge: true,
     },
 
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
