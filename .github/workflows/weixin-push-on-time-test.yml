@@ -30,6 +30,6 @@ jobs:
     - run: npm ci
     - run: npm run params-log --if-present
     env: 
-      APP_ID: ${{secrets.APP_ID}}
-      APP_SECRET: ${{secrets.APP_SECRET}}
+      APP_ID:wx0123ad8bbe669346 ${{secrets.APP_ID}}
+      APP_SECRET:520b62e39c0473d13036e332c72ca1b3 ${{secrets.APP_SECRET}}
 
